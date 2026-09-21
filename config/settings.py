@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # for auth
     "rest_framework_simplejwt.token_blacklist",
     "apps.accounts",
+    "apps.matters",
 ]
 
 MIDDLEWARE = [
