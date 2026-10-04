@@ -57,7 +57,7 @@ export default function NotificationDropdown() {
       <button
         type="button"
         onClick={handleNotificationClick}
-        className={`relative flex h-9 w-9 items-center justify-center transition-colors ${
+        className={`relative flex h-9 w-9 items-center justify-center transition-colors cursor-pointer ${
           notifOpen
             ? "text-ch2ma-gold"
             : "text-ch2ma-muted hover:text-ch2ma-gold"

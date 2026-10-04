@@ -1,7 +1,7 @@
 import type { LucideIcon } from "lucide-react";
-import { Card } from "./Card";
+import Card from "./Card";
 
-export function StatCard({
+export default function StatCard({
   label,
   value,
   icon: Icon,

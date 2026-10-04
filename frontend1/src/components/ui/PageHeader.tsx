@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export function PageHeader({
+export default function PageHeader({
   eyebrow,
   title,
   subtitle,
